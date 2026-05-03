@@ -11,8 +11,10 @@ import { connectDB } from "./lib/db.js";
 
 const allowedOrigins = [
   "http://localhost:5173",
-  process.env.FRONTEND_URL,
+  process.env.FRONTEND_URL?.trim(),
 ].filter(Boolean);
+
+console.log("Allowed origins:", allowedOrigins);
 
 const app = express();
 const PORT = process.env.PORT;
