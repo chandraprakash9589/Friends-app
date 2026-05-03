@@ -1,6 +1,6 @@
 <h1 align="center">✨ Friends Chat & Video Calling App ✨</h1>
 
-![Demo App]()
+![Demo App](https://friends-app-rust.vercel.app/)
 
 ## Highlights
 
